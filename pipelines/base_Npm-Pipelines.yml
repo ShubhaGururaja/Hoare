@@ -152,7 +152,7 @@ pipelines:
           includeDependencies:   true   
           status:                Passed
           comment:               Artifact passed Xray Scan
-          copy:                  false
+          copy:                  true
           inputResources:
             - name:    scanned_npm_dockerBuild_Info
               trigger: true       
